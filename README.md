@@ -18,17 +18,6 @@ This is a dynamic **JSON Schema Builder** built using **React.js**, **JavaScript
 - 🧾 Live preview of generated JSON on the right
 - 🧩 Recursive JSON schema construction with nested depth
 
----
-
-## 📁 Project Structure
-
-src/
-├── App.jsx # Main component
-├── SchemaBuilder.jsx # Core schema logic
-├── FieldItem.jsx # Recursive field editor component
-
----
-
 
 ---
 
