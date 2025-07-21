@@ -1,12 +1,50 @@
-# React + Vite
+# 🧩 JSON Schema Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a dynamic **JSON Schema Builder** built using **React.js**, **JavaScript**, and **Bootstrap**. It allows users to create complex, nested JSON schemas with various field types and instantly visualize the output.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add key-value fields dynamically
+- 🔁 Support for nested fields (recursive structure)
+- 🧠 Field types supported:
+  - `string`
+  - `number`
+  - `nested`
+- 🔀 Toggle `required` field switch
+- ❌ Delete fields at any level
+- 🧾 Live preview of generated JSON on the right
+- 🧩 Recursive JSON schema construction with nested depth
+
+---
+
+## 📁 Project Structure
+
+src/
+├── App.jsx # Main component
+├── SchemaBuilder.jsx # Core schema logic
+├── FieldItem.jsx # Recursive field editor component
+
+---
+
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/pankaj6626/json_schema_builder.git
+cd json-schema-builder
+npm install
+npm start
+```
+
